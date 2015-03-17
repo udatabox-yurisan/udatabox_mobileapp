@@ -1,0 +1,380 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.udatabox.udatabox_mobileapp.Estudiante_Procesos_DatosCliente"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearanceMedium="?android:attr/textAppearanceMedium"
+                android:text="Datos Personales"
+                android:id="@+id/tw_titulo_personal"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:stretchColumns="*"
+                android:shrinkColumns="*">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw1"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteNombre"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Yurisan A. Collado"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw2"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="C.C.:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteCC"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="2323234334"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw3"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Edad:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteEdad"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="25 años"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw4"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Dirección:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteDireccion"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="fsdfksdfoksdfo fdsmfkdsmf dfdsnfds fdffsf"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw5"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Barrio:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteBarrio"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="ewqedsd dsad as dsad d"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw6"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nivel de Escolaridad:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteEscolaridad"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bachiller"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw7"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Teléfono:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteTelefono"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="23234 323"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw8"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="SISBEN:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteSisben"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Si"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw9"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ocupación:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteOcupacion"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Asistente"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw10"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Estado Civil:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteEstadoCivil"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Soltero"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw15"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Area:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteArea"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Civil"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+
+            </TableLayout>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearanceMedium="?android:attr/textAppearanceMedium"
+                android:text="Datos Conyuge"
+                android:id="@+id/tw_titulo_conyuge"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center_horizontal" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:stretchColumns="*"
+                android:shrinkColumns="*"
+                android:id="@+id/tablaConyuge">
+
+                <TableRow
+                    android:id="@+id/tableRow11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw11"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nombre:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ConyugeNombre"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Yurisan A: Colaldo P."
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw12"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Ocupación:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteConyugeOcupacion"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Bachiller"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+                    <TextView
+                        android:id="@+id/tw13"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Nº de Hijos:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tw_P_ClienteConyugeHijos"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

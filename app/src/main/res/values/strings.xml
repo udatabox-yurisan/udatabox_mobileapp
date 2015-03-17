@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">UDATABOX</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="empty_field">Datos incompleto</string>
+    <string name="title_activity_estudiante_main_menu">EstudianteMainMenu</string>
+    <string name="title_activity_estudiante__procesos">Estudiante_Procesos</string>
+    <string name="title_activity_estudiante__procesos__detalles">Estudiante_Procesos_Detalles
+    </string>
+    <string-array name="listadoProcesosDetalleCasos">
+    <item>Datos Cliente</item>
+    <item>Datos Desplazado</item>
+    <item>Hechos</item>
+    <item>Familiares</item>
+    <item>Casos</item>
+    <item>Anexos</item>
+</string-array>
+    <string-array name="listadoProcesosDetalleAsesoria">
+        <item>Datos Cliente</item>
+        <item>Datos Desplazado</item>
+        <item>Hechos</item>
+        <item>Familiares</item>
+        <item>Asesoria Juridica</item>
+        <item>Anexos</item>
+    </string-array>
+    <string-array name="listadoProcesosDatosDesplazado">
+        <item>Motivo</item>
+        <item>Bienes Abandonados</item>
+    </string-array>
+
+
+    <string name="title_activity_estudiante__procesos__datos_cliente">
+        Datos Cliente
+    </string>
+    <string name="title_activity_estudiante__procesos__datos_dezplazados">
+        Datos Dezplazados
+    </string>
+    <string name="title_activity_estudiante__procesos__tab">Procesos</string>
+    <string name="title_activity_estudiante__dashboard">Resumen</string>
+
+    <string name="EstadoProceso1">Aceptar</string>
+    <string name="EstadoProceso2">Rechazar</string>
+    <string name="title_activity_main__recuperar__contrasena">Main_Recuperar_Contrasena</string>
+    <string name="title_activity_main__recuperar__contrasena_paso2">
+        Main_Recuperar_Contrasena_paso2
+    </string>
+    <string name="title_activity_estudiante__procesos__datos_desplazados_motivo">
+        Estudiante_Procesos_DatosDesplazadosMotivo
+    </string>
+    <string name="title_activity_estudiatne__procesos__datos_desplazados_bienes">
+        Estudiatne_Procesos_DatosDesplazadosBienes
+    </string>
+    <string name="title_activity_estudiante__proceos__datos_hechos">Estudiante_Proceos_DatosHechos
+    </string>
+    <string name="title_activity_estudiante__procesos__datos_familiares">
+        Estudiante_Procesos_DatosFamiliares
+    </string>
+    <string name="title_activity_estudiante__procesos__datos_casos">Estudiante_Procesos_DatosCasos
+    </string>
+    <string name="title_activity_estudiante__procesos__datos_asesorias">
+        Estudiante_Procesos_DatosAsesorias
+    </string>
+
+</resources>

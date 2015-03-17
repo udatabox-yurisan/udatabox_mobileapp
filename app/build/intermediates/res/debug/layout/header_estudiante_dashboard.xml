@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009dd8">
+
+    <!-- title -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/tw_Dashboard_Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp" />
+       <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="1dp"
+            android:layout_alignParentBottom="true"
+           android:background="#CCC"></View>
+    </LinearLayout>
+
+    <!--  divider -->
+
+</RelativeLayout><!-- From: file:/C:/Users/Carlos/AndroidStudioProjects/udatabox_mobileapp/app/src/main/res/layout/header_estudiante_dashboard.xml -->

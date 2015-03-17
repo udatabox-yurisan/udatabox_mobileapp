@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.udatabox.udatabox_mobileapp.Estudiante_Procesos_DatosDesplazados">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:stretchColumns="*"
+                android:shrinkColumns="*">
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+
+                    <TextView
+                        android:id="@+id/tw1"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Lugar:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tw_P_DezplazamintoLugar"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:ems="5"
+                        android:text="San Cristobal. Edo. Tachira"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+
+                    <TextView
+                        android:id="@+id/tw2"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Fecha:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tw_P_DezplazamintoFecha"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:ems="5"
+                        android:text="10 de Enero de 2015"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+
+                </TableRow>
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp" >
+
+                    <TextView
+                        android:id="@+id/textViewPlateValueLabel"
+                        android:layout_weight="4"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Inscrito RUPD:"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tw_P_DezplazamintoRupd"
+                        android:layout_weight="6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:ems="5"
+                        android:text="Si"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_marginLeft="15dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listaProcesosDetalleDesplazado"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/Carlos/AndroidStudioProjects/udatabox_mobileapp/app/src/main/res/layout/activity_estudiante__procesos__datos_desplazados.xml -->
